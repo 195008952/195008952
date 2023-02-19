@@ -15,7 +15,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: xqw43535/666
+          images: xqw43535/chatgpt-web
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
